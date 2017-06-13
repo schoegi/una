@@ -10,13 +10,9 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="all_style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-    <script>
-        $(document).ready(function(){
-            $('.slider').slider();
-        });
-    </script>
 </head>
 <body bgcolor="#bdbdbd">
 
@@ -28,7 +24,7 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="showroom.html">Showroom</a></li>
-                <li><a href="https://www.booking.com/hotel/ba/unadom.de.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaA6IAQGYAQfCAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=568f251382d26b86a5b0894c75e396b5;aer=1;dest_id=-77082;dest_type=city;dist=0;group_adults=2;hpos=5;room1=A%2CA;sb_price_type=total;srfid=268b1352fc2e0e93ff89d44eb24737ac55265cb2X5;type=total;ucfs=1&#hotelTmpl">Booking</a></li>
+                <li><a href="https://www.booking.com/hotel/ba/unadom.de.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaA6IAQGYAQfCAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=568f251382d26b86a5b0894c75e396b5;aer=1;dest_id=-77082;dest_type=city;dist=0;group_adults=2;hpos=5;room1=A%2CA;sb_price_type=total;srfid=268b1352fc2e0e93ff89d44eb24737ac55265cb2X5;type=total;ucfs=1&#hotelTmpl">Booking.com</a></li>
             </ul>
         </div>
     </nav>
@@ -36,13 +32,13 @@
 <ul class="side-nav" id="mobile-demo">
     <li><a href="index.html">Home</a></li>
     <li class="active"><a href="showroom.html">Showroom</a></li>
-    <li><a href="https://www.booking.com/hotel/ba/unadom.de.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaA6IAQGYAQfCAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=568f251382d26b86a5b0894c75e396b5;aer=1;dest_id=-77082;dest_type=city;dist=0;group_adults=2;hpos=5;room1=A%2CA;sb_price_type=total;srfid=268b1352fc2e0e93ff89d44eb24737ac55265cb2X5;type=total;ucfs=1&#hotelTmpl">Booking</a></li>
+    <li><a href="https://www.booking.com/hotel/ba/unadom.de.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaA6IAQGYAQfCAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=568f251382d26b86a5b0894c75e396b5;aer=1;dest_id=-77082;dest_type=city;dist=0;group_adults=2;hpos=5;room1=A%2CA;sb_price_type=total;srfid=268b1352fc2e0e93ff89d44eb24737ac55265cb2X5;type=total;ucfs=1&#hotelTmpl">Booking.com</a></li>
 </ul>
-
+<!--
 <div class="container">
     <div class="section">
-        <div class="row">
-<!--picture padding 3403-->
+        <div class="row"> -->
+<!--picture padding 3403-->  <!--
             <div class="col s12 m6 l4">
             <img class="materialboxed" width="300" src="img/Hausfront2.jpg">
             </div>
@@ -76,10 +72,156 @@
             <div  class="col s12 m6 l4">
                 <img class="materialboxed" width="300" src="img/Fluss5.jpg">
             </div>
-
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
     </div>
+-->
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 19</div>
+        <img src="img/hausseite1.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 19</div>
+        <img src="img/hausseite2.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 19</div>
+        <img src="img/hausseite3.JPG" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 19</div>
+        <img src="img/hausfront.JPG" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 19</div>
+        <img src="img/fluss1.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 19</div>
+        <img src="img/fluss2.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 19</div>
+        <img src="img/fluss3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 19</div>
+        <img src="img/bett1.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 19</div>
+        <img src="img/bett2.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">10 / 19</div>
+        <img src="img/bett3.JPG" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">11 / 19</div>
+        <img src="img/kueche.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">12 / 19</div>
+        <img src="img/bad.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">13 / 19</div>
+        <img src="img/stiege.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">14 / 19</div>
+        <img src="img/oben1.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">15 / 19</div>
+        <img src="img/oben2.JPG" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">16 / 19</div>
+        <img src="img/parkplatz.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">17 / 19</div>
+        <img src="img/wohnzimmer1.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">18 / 19</div>
+        <img src="img/wohnzimmer2.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">19 / 19</div>
+        <img src="img/wohnzimmer3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+    <span class="dot" onclick="currentSlide(18)"></span>
+    <span class="dot" onclick="currentSlide(19)"></span>
+</div>
 
 <footer class="page-footer">
     <div class="container">
@@ -92,8 +234,8 @@
             <div class="col l3 s12">
                 <h5 class="black-text">Connect</h5>
                 <ul>
-                    <li><a class="black-text" href="unadom-bih@outlook.com"><p></a></li></p>
-                    <li><a class="black-text" href="#!"><p> Adress:<br> Una</a></li></p>
+                    <li><a class="black-text">Mail: unadom-bih@outlook.com<p></a></li></p>
+                    <li><a class="black-text"><p>Adress: Srbljani bb, 77205 Ostrožac, Bosnien und Herzegovina<br>Una</a></li></p>
                 </ul>
             </div>
         </div>
